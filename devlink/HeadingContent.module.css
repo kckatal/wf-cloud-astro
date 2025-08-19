@@ -1,0 +1,15 @@
+.title-wrapper {
+  margin-bottom: 1rem;
+}
+
+.title-wrapper.cc-lg {
+  margin-bottom: 2rem;
+}
+
+.title-wrapper.cc-sm {
+  margin-bottom: 0.75rem;
+}
+
+.title-wrapper.cc-xl {
+  margin-bottom: 2.5rem;
+}

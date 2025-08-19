@@ -1,0 +1,38 @@
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  align-self: flex-start;
+}
+
+.image-wrapper:where(.w-variant-9d46a72f-725a-49ae-cd91-bb8768f6a31a) {
+  aspect-ratio: 1/1;
+}
+
+.image-wrapper:where(.w-variant-77e2a0da-5692-0156-c269-25ad1717b39e) {
+  aspect-ratio: 16/9;
+}
+
+.image-wrapper:where(.w-variant-6d1e7904-8222-95b7-64c1-8ca4f914201d) {
+  aspect-ratio: 4/3;
+}
+
+.image-wrapper.cc-1x1 {
+  aspect-ratio: 1/1;
+  border-radius: var(--roundness--image);
+}
+
+.image-wrapper.cc-4x3 {
+  aspect-ratio: 4/3;
+}
+
+.image-wrapper.cc-16x9 {
+  aspect-ratio: 16/9;
+}
+
+#w-node-_8731218b-9367-d7f5-98e5-0f9cdb9f3e98-db9f3e98 {
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+}

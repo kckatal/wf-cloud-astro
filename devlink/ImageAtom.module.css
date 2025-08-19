@@ -1,0 +1,13 @@
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image:where(.w-variant-811f123b-9c68-7ce4-a59f-63ee67e00514) {
+  object-fit: contain;
+}
+
+.image.cc-contain {
+  object-fit: contain;
+}

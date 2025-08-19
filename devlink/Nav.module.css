@@ -1,0 +1,48 @@
+.nav {
+  min-height: 4rem;
+  background-color: hsla(0, 0.00%, 86.67%, 0.00);
+  color: var(--_themes---colors--text);
+}
+
+.container {
+  width: 100%;
+  max-width: var(--_sections---container--max-width);
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: var(--_sections---container--padding);
+  padding-left: var(--_sections---container--padding);
+}
+
+.container.cc-10col {
+  max-width: var(--_sections---container--max-width-10-col);
+}
+
+.container.cc-8col {
+  max-width: var(--_sections---container--max-width-8-col);
+}
+
+.container.cc-6col {
+  max-width: var(--_sections---container--max-width-6-col);
+}
+
+.u-height-full {
+  height: 100%;
+}
+
+.nav-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.nav-logo {
+  display: flex;
+  max-width: 5rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-link {
+  color: hsla(0, 0.00%, 100.00%, 1.00);
+}

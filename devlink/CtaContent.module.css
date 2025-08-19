@@ -1,0 +1,15 @@
+.cta-wrapper {
+  display: flex;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+}
+
+.cta-wrapper.cc-lg {
+  margin-top: 3.75rem;
+}
+
+.cta-wrapper.cc-center {
+  justify-content: center;
+}

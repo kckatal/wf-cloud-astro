@@ -1,0 +1,128 @@
+.section {
+  width: 100%;
+  padding-top: var(--_sections---padding);
+  padding-bottom: var(--_sections---padding);
+}
+
+.section.cc-top-0 {
+  padding-top: 0em;
+}
+
+.section.cc-bottom-0 {
+  padding-bottom: 0em;
+}
+
+.section.cc-top-sm {
+  padding-top: var(--_sections---padding-small);
+}
+
+@media screen and (max-width: 991px) {
+  .section.cc-top-sm {
+    padding-top: var(--_sections---section--padding-tablet-small\<deleted\|variable-0cc59624-2050-d1d5-74d9-e42299b99863\>);
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section.cc-top-sm {
+    padding-top: var(--_sections---section--padding-mobile-small\<deleted\|variable-5ab5e92f-4951-22d9-7f44-98793fd90f36\>);
+  }
+}
+
+.section.cc-bottom-sm {
+  padding-bottom: var(--_sections---padding-small);
+}
+
+.section.cc-top-lg {
+  padding-top: var(--_sections---padding-large);
+}
+
+.section.cc-bottom-lg {
+  padding-bottom: var(--_sections---padding-large);
+}
+
+.section.cc-hero {
+  min-height: 50vh;
+  padding-top: 7rem;
+}
+
+.u-height-screen {
+  height: 100vh;
+}
+
+.section.cc-sm {
+  padding-top: var(--_sections---padding-small);
+  padding-bottom: var(--_sections---padding-small);
+}
+
+.section.cc-0 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.section.cc-lg {
+  padding-top: var(--_sections---padding-large);
+  padding-bottom: var(--_sections---padding-large);
+}
+
+.container {
+  width: 100%;
+  max-width: var(--_sections---container--max-width);
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: var(--_sections---container--padding);
+  padding-left: var(--_sections---container--padding);
+}
+
+.container.cc-10col {
+  max-width: var(--_sections---container--max-width-10-col);
+}
+
+.container.cc-8col {
+  max-width: var(--_sections---container--max-width-8-col);
+}
+
+.container.cc-6col {
+  max-width: var(--_sections---container--max-width-6-col);
+}
+
+.u-height-full {
+  height: 100%;
+}
+
+.grid-cols {
+  position: relative;
+
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .grid-cols {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-cols.cc-3col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 991px) {
+  .grid-cols.cc-3col {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .grid-cols.cc-3col {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-cols.cc-horizontal {
+  grid-auto-flow: column;
+  grid-template-columns: 1fr;
+}

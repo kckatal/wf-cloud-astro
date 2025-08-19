@@ -1,0 +1,6 @@
+.card {
+  padding: 1.5rem;
+  border: 1px solid var(--_themes---colors--stroke);
+  border-radius: var(--roundness--cards);
+  background-color: var(--_themes---colors--surface-2);
+}
