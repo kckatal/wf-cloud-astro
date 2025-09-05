@@ -20,7 +20,7 @@ export function Nav({ as: _Component = _Builtin.NavbarWrapper }) {
       }}
     >
       <_Builtin.NavbarContainer
-        className={_utils.cx(_styles, "container")}
+        className={_utils.cx(_styles, "container", "cc-nav")}
         tag="div"
       >
         <_Builtin.Block className={_utils.cx(_styles, "nav-wrapper")} tag="div">

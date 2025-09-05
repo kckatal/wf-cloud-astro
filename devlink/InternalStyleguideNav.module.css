@@ -37,6 +37,13 @@
   height: 100%;
 }
 
+.container.cc-nav {
+  display: flex;
+  height: 4rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .sg-wrapper {
   display: grid;
   grid-auto-columns: 1fr;
